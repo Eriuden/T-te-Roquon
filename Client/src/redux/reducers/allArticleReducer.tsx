@@ -1,4 +1,4 @@
-import { GET_ALL_ARTICLES } from "../actions/article.actions";
+import { GET_ALL_ARTICLES } from "../actions/article.action";
 
 const initialState = {}
 

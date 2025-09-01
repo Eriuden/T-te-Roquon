@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { getAllArticles } from "../redux/actions/article.action
+import { getAllArticles } from "../redux/actions/article.action"
 import { ArticleCard } from "./ArticleCard"
 import { isEmpty } from "../Utils"
 

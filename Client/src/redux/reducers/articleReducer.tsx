@@ -1,7 +1,7 @@
 import {GET_ARTICLE, UPDATE_ARTICLE, UPLOAD_ARTICLE_PICTURE, DELETE_ARTICLE,
     LIKE_ARTICLE, UNLIKE_ARTICLE, DISLIKE_ARTICLE, UNDISLIKE_ARTICLE,
    EDIT_COMMENT, DELETE_COMMENT} 
-   from "../actions/article.actions";
+   from "../actions/article.action";
    
    const initialState:any = {}
    

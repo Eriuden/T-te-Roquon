@@ -1,4 +1,4 @@
-import { GET_ARTICLE_ERROR } from "../actions/article.actions";
+import { GET_ARTICLE_ERROR } from "../actions/article.action";
 import { GET_USER_ERRORS } from "../actions/user.action";
 
 const initialState = {userError : [], articleError : []}
