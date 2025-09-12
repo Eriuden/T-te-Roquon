@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { getArticle } from "../redux/actions/article.actions";
+import { getArticle } from "../redux/actions/article.action";
 import { useDispatch, useSelector } from "react-redux";
 import { Comments } from "../components/comments/Comment";
 
