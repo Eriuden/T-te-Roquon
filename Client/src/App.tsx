@@ -18,9 +18,9 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/profil" element={<UserProfile/>}/>
           <Route path="/cart" element={<Cart/>}/>
-          <Route path="/cart" element={<ArticlePage/>}/>
-          <Route path="/cart" element={<UpdatePassword/>}/>
-          <Route path="/cart" element={<ResetPassword/>}/>
+          <Route path="/article-page" element={<ArticlePage/>}/>
+          <Route path="/update-password" element={<UpdatePassword/>}/>
+          <Route path="/reset-password" element={<ResetPassword/>}/>
         </Routes>           
       </div>
     </>
