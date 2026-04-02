@@ -14,20 +14,6 @@ const articleSchema = new mongoose.Schema(
             required: true,
         },
 
-        typeArticle: {
-            type: String,
-            trim: true,
-            maxlength: 20,
-            required: true,
-        },
-
-        licence: {
-            type: String,
-            trim: true,
-            maxlength: 500,
-            required: true,
-        },
-
         price: {
             type: String,
             trim: true,
